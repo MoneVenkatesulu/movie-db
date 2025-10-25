@@ -1,0 +1,29 @@
+.movie-cast-card {
+  background-color: #fff;
+  box-shadow: 0 1px 6px #e1e1e1;
+  color: #9a9a9a;
+  font-family: "Roboto";
+  width: 45%;
+  max-width: 160px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 10px;
+
+  @media (max-width: 575px) {
+    padding: 5px;
+  }
+}
+
+.movie-cast-name {
+  text-align: center;
+  color: #2d832d;
+}
+
+.movie-cast-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
